@@ -5,7 +5,7 @@ import { IBook } from '../book/book.component';
 @Component({
   selector: 'app-book-form',
   templateUrl: './form.component.html',
-  styleUrls: []
+  styleUrls: ['./form.component.css']
 })
 export class BookFormComponent {
   formGrp: FormGroup;

@@ -12,16 +12,16 @@ export class BookService {
     this.books = [
       {
         name: 'Eelements of Mechanical Engineering',
-        author: 'Some Author',
+        author: 'V. K. MANGLIK',
         count: 5,
-        description: 'Long description',
+        description: `This book provides a comprehensive and wide-ranging introduction to the fundamental principles of mechanical engineering in a distinct and clear manner.`,
         id: 1
       },
       {
-        name: 'Eelements of Electrecal Engineering',
-        author: 'Some Author',
+        name: 'Eelements of Electrical Engineering',
+        author: 'U.A.Bakshi',
         count: 10,
-        description: 'Long description',
+        description: `D. C. CircuitConcept of EMF, P.D. and current, Resistance, Effect of temperature of resistance, resistance-temperature co-efficient, Classification of electric network`,
         id: 2
       }
     ];

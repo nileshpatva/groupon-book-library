@@ -11,7 +11,7 @@ export interface IBook {
 @Component({
   selector: 'app-book',
   templateUrl: './book.component.html',
-  styleUrls: []
+  styleUrls: ['./book.component.css']
 })
 export class BookComponent {
   @Input() book: IBook;
