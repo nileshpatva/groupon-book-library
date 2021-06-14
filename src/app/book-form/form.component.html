@@ -1,0 +1,15 @@
+<form [formGroup]="formGrp">
+  <label for=""> Book Name: 
+    <input type="text" formControlName="name" />
+  </label>
+  <label for=""> Description: 
+  <input type="text" formControlName="description" />
+  </label>
+  <label for="">Author
+  <input type="text" formControlName="author" />
+  </label>
+  <label for="">Count: 
+  <input type="number" formControlName="count" />
+  </label>
+  <button type="submit" (click)="addBook()">Add book</button>
+</form>

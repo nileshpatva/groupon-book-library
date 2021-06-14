@@ -1,0 +1,14 @@
+<div class="add-book">
+  <app-book-form (book)="addBook($event)">
+  </app-book-form>
+</div>
+
+<div class="search">
+  <label for="">Search a book
+  <input type="text" [(ngModel)]="searchTerm" (keypress)="searchBooks($event)"/>
+  </label>
+</div>
+
+<div class="all-books">
+  <app-book *ngFor="let book of (searchTerm ? filtered : allbooks)" [book]="book"></app-book>
+</div>
